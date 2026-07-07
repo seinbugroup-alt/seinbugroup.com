@@ -4,7 +4,7 @@
     { "src": "**/*", "use": "@vercel/static" }
   ],
   "routes": [
-    { "src": "/app", "dest": "https://seinbu-one.vercel.app", "status": 302 },
+    { "src": "/app", "dest": "/app.html" },
     { "src": "/(.*)", "dest": "/$1" }
   ]
 }
